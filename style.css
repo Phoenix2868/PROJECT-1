@@ -1,0 +1,204 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* background-color: rgb(221, 171, 33); */
+    background: url(https://image.shutterstock.com/image-photo/yellow-linen-texture-background-260nw-1232174350.jpg);
+    background-size: cover;
+}
+
+.container {
+    /* color: white; */
+    /* margin: 10px 10px 0px 10px; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.left {
+    /* background-color: red;
+    border: 2px solid black; */
+    display: inline-block;
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+}
+
+img {
+    width: 50px;
+    padding-left: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.center {
+    /* background-color: blue; */
+    /* border: 2px solid black; */
+    display: block;
+    width: 40vw;
+    /* position: absolute; */
+    margin: auto 33vw;
+    /* color: red; */
+}
+
+/* .navbar {
+display: inline-block;
+} */
+
+nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 3vh;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 44px;
+    /* padding: 34px 23px; */
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.bar input {
+    /* display: inline-block; */
+    /* margin-left: 0vw; */
+    margin-top: 4vh;
+    width: 35vw;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 10px;
+    /* text-align: center; */
+}
+
+.right {
+    /* background-color: greenyellow;
+    border: 2px solid black; */
+    /* display: inline-block; */
+    position: absolute;
+    right: 0vw;
+    top: 1vh;
+
+}
+
+.btn {
+    margin-top: 4vh;
+    margin-right: 4vw;
+    /* background-color: black; */
+}
+
+button {
+    margin: 7px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button a {
+    text-decoration: none;
+}
+
+.btn :hover {
+    background-color: red;
+}
+
+main {
+    /* color: white; */
+    /* margin: 10px 10px 0px 10px; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    /* margin-top: 20px; */
+    font-size: 38px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 20px;
+    font-family: 'Shrikhand', cursive;
+}
+
+.form-group {
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+
+}
+
+/* .form-groups {
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+    margin: 0px 20px;
+} */
+#button input {
+    margin: 15px 10px;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 6px
+}
+
+/* #button input :hover{
+    background-color: greenyellow;
+    color: red;
+} */
+
+.rightimg {
+    display: inline-block;
+    position: absolute;
+    right: 4vw;
+    bottom: 8vh;
+}
+
+.rightimg img {
+    width: 30vw;
+}
+
+.leftimg {
+    display: inline-block;
+    position: absolute;
+    left: 4vw;
+    bottom: 8vh;
+}
+
+.leftimg img {
+    width: 30vw;
+}
+
+footer #foot {
+    text-align: center;
+    /* margin-top: 20px; */
+    font-size: 18px;
+    background-color: black;
+    color: antiquewhite;
+    /* bottom: 0px; */
+    height: 21PX;
+    /* margin-bottom: 0PX; */
+}
+
+.thank {
+    margin: 30vh auto;
+}
+
+.thank p {
+    padding: 25px;
+    color: rgb(0, 47, 255);
+    font-size: 50px;
+    text-decoration: none;
+}
